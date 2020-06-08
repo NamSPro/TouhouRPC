@@ -1,6 +1,7 @@
 #include <string>
 #pragma once
 
+// games from 06-13 (up to TD) will use the names on wiki, 14 (DDC) onwards uses thcrap
 // Touhou 06
 const std::string th06_musicNames[17] = {
 	"A Dream More Scarlet than Red",
@@ -71,66 +72,6 @@ const std::string th08_musicNames[21] = {
 	"Eastern Youkai Beauty",
 };
 
-// Touhou 09
-const std::string th09_musicNames[19] = {
-	"Flower Reflecting Mound ~ Higan Retour",
-	"Spring Lane ~ Colorful Path",
-	"Oriental Dark Flight",
-	"Flowering Night",
-	"Eastern Ghostly Dream ~ Ancient Temple",
-	"Lunatic Eyes ~ Invisible Full Moon",
-	"Adventure of the Lovestruck Tomboy",
-	"Phantom Band ~ Phantom Ensemble",
-	"Deaf to All but the Song ~ Flower Mix",
-	"White Flag of Usa Shrine",
-	"Wind God Girl",
-	"Poison Body ~ Forsaken Doll",
-	"Gensokyo, Past and Present ~ Flower Land",
-	"Higan Retour ~ Riverside View",
-	"Eastern Judgement in the Sixtieth Year ~ Fate of Sixty Years",
-	"The Mound where the Flowers Reflect",
-	"Mound of Shigan",
-	"The Flowers Remain in Fantasy",
-	"Flower of Soul ~ Another Dream...",
-};
-
-const std::string th09_stageNames[14] = {
-	"Bamboo Forest of the Lost",
-	"Bamboo Forest of the Lost",
-	"Phantom Meadow",
-	"Hakugyokurou's Stairway",
-	"Eientei",
-	"Misty Lake",
-	"Barrier of Life & Death",
-	"Youkai Trail",
-	"Bamboo Forest of the Lost",
-	"Garden of the Sun",
-	"Giant Toad's Pond",
-	"The Nameless Hill",
-	"Road of Reconsideration",
-	"Muenzuka",
-};
-
-const std::string th09_characterNames[16] = {
-	"Reimu",
-	"Marisa",
-	"Sakuya",
-	"Youmu",
-	"Reisen",
-	"Cirno",
-	"Lyrica",
-	"Mystia",
-	"Tewi",
-	"Yuuka",
-	"Aya",
-	"Medicine",
-	"Komachi",
-	"Eiki",
-	"Merlin",
-	"Lunasa",
-};
-
-// Touhou 08
 const std::string th08_spellCardName[222] = {
 	// stage 1 (13 cards)
 	"Firefly Sign \"Meteors on Earth\"",
@@ -366,6 +307,65 @@ const std::string th08_spellCardName[222] = {
 	"\"Profound Danmaku Barrier -Phantasm, Foam and Shadow-\""
 };
 
+// Touhou 09
+const std::string th09_musicNames[19] = {
+	"Flower Reflecting Mound ~ Higan Retour",
+	"Spring Lane ~ Colorful Path",
+	"Oriental Dark Flight",
+	"Flowering Night",
+	"Eastern Ghostly Dream ~ Ancient Temple",
+	"Lunatic Eyes ~ Invisible Full Moon",
+	"Adventure of the Lovestruck Tomboy",
+	"Phantom Band ~ Phantom Ensemble",
+	"Deaf to All but the Song ~ Flower Mix",
+	"White Flag of Usa Shrine",
+	"Wind God Girl (Short Version)",
+	"Poison Body ~ Forsaken Doll",
+	"Gensokyo, Past and Present ~ Flower Land",
+	"Higan Retour ~ Riverside View",
+	"Eastern Judgement in the Sixtieth Year ~ Fate of Sixty Years",
+	"The Mound where the Flowers Reflect",
+	"Mound of Shigan",
+	"The Flowers Remain in Fantasy",
+	"Flower of Soul ~ Another Dream...",
+};
+
+const std::string th09_stageNames[14] = {
+	"Bamboo Forest of the Lost",
+	"Bamboo Forest of the Lost",
+	"Phantom Meadow",
+	"Hakugyokurou's Stairway",
+	"Eientei",
+	"Misty Lake",
+	"Barrier of Life & Death",
+	"Youkai Trail",
+	"Bamboo Forest of the Lost",
+	"Garden of the Sun",
+	"Giant Toad's Pond",
+	"The Nameless Hill",
+	"Road of Reconsideration",
+	"Muenzuka",
+};
+
+const std::string th09_characterNames[16] = {
+	"Reimu",
+	"Marisa",
+	"Sakuya",
+	"Youmu",
+	"Reisen",
+	"Cirno",
+	"Lyrica",
+	"Mystia",
+	"Tewi",
+	"Yuuka",
+	"Aya",
+	"Medicine",
+	"Komachi",
+	"Eiki",
+	"Merlin",
+	"Lunasa",
+};
+
 // Touhou 10
 const std::string th10_musicNames[18] = {
 	"A God That Misses People ~ Romantic Fall",
@@ -392,7 +392,7 @@ const std::string th10_musicNames[18] = {
 const std::string th11_musicNames[20] = {
 	"Awakening of the Earth Spirits",
 	"The Dark Blowhole",
-	"The Sealed Youkai ~ Lost Place",
+	"The Sealed-Away Youkai ~ Lost Place",
 	"The Bridge People No Longer Cross",
 	"unused",
 	"Green-Eyed Jealousy",
@@ -449,12 +449,37 @@ const std::string th12_8_musicNames[12] = {
 	"Great Fairy Wars ~ Fairy Wars",
 	"An Ice Fairy in Spring",
 	"Player's Score",
-	"An Ice Fairy in Spring - still -",
+	"An Ice Fairy in Spring - Still -",
 	"Loose Rain",
 	"Magus Night",
 };
 
 // Touhou 13
+const std::string th13_musicNames[22] = {
+	"Spirit of Avarice",
+	"Night Sakura of Dead Spirits",
+	"unused",
+	"Ghost Lead",
+	"Welcome to Youkai Temple",
+	"unused",
+	"Youkai Girl at the Gate",
+	"Let's Live in a Lovely Cemetery",
+	"Rigid Paradise",
+	"unused",
+	"Desire Drive",
+	"Old Yuanxian",
+	"The Hall of Dreams' Great Mausoleum",
+	"unused",
+	"unused",
+	"Omiwa Legend",
+	"Starry Sky of Small Desires",
+	"Shoutoku Legend ~ True Administrator",
+	"A New Wind at the Shrine",
+	"Desire Dream",
+	"Youkai Back Shrine Road",
+	"Futatsuiwa from Sado",
+};
+
 const std::string th13_spellCardName[127] = {
 	// stage 1 (14 cards)
 	"Symbol \"Dance of the Dead Butterflies\"",
@@ -593,33 +618,30 @@ const std::string th13_spellCardName[127] = {
 	"\"Wild Carpet\""
 };
 
-// Touhou 13 Music
-const std::string th13_musicNames[22] = {
-	"Spirit of Avarice",
-	"Night Sakura of Dead Spirits",
+// Touhou 14
+const std::string th14_musicNames[20] = {
 	"unused",
-	"Ghost Lead",
-	"Welcome to Youkai Temple",
+	"Mysterious Purification Rod",
+	"Mist Lake",
+	"Mermaid from the Uncharted Land",
+	"Humans and Youkai Traversing the Canal",
+	"Dullahan Under the Willows",
+	"Bamboo Forest of the Full Moon",
+	"Lonesome Werewolf",
 	"unused",
-	"Youkai Girl at the Gate",
-	"Let's Live in a Lovely Cemetery",
-	"Rigid Paradise",
+	"Magical Storm",
+	"Illusionary Joururi",
+	"The Shining Needle Castle Sinking in the Air",
+	"Reverse Ideology",
 	"unused",
-	"Desire Drive",
-	"Old Yuanxian",
-	"The Hall of Dreams' Great Mausoleum",
-	"unused",
-	"unused",
-	"Omiwa Legend",
-	"Starry Sky of Small Desires",
-	"Shoutoku Legend ~ True Administrator",
-	"A New Wind at the Shrine",
-	"Desire Dream",
-	"Youkai Back Shrine Road",
-	"Futatsuiwa from Sado",
+	"The Exaggerated Castle Keep",
+	"Inchlings of the Shining Needle ~ Little Princess",
+	"Magical Power of the Mallet",
+	"Mysterious, Mysterious Tools",
+	"Thunderclouds of Magical Power",
+	"Primordial Beat ~ Pristine Beat",
 };
 
-// Touhou 14 Spell Cards
 const std::string th14_spellCardName[120] = {
 	// stage 1 (1-10) (10 cards)
 	"Ice Sign \"Ultimate Blizzard\"",
@@ -750,31 +772,7 @@ const std::string th14_spellCardName[120] = {
 	"\"Pristine Beat\"",
 };
 
-// Touhou 14 Music
-const std::string th14_musicNames[20] = {
-	"unused",
-	"Mysterious Purification Rod",
-	"Mist Lake",
-	"Mermaid from the Uncharted Land",
-	"Humans and Youkai Traversing the Canal",
-	"Dullahan Under the Willows",
-	"Bamboo Forest of the Full Moon",
-	"Lonesome Werewolf",
-	"unused",
-	"Magical Storm",
-	"Illusionary Joururi",
-	"The Shining Needle Castle Sinking in the Air",
-	"Reverse Ideology",
-	"unused",
-	"The Exaggerated Castle Keep",
-	"Inchlings of the Shining Needle ~ Little Princess",
-	"Magical Power of the Mallet",
-	"Mysterious, Mysterious Tools",
-	"Thunderclouds of Magical Power",
-	"Primordial Beat ~ Pristine Beat",
-};
-
-// Touhou 15 Music
+// Touhou 15
 const std::string th15_musicNames[18] = {
 	"unused",
 	"The Space Shrine Maiden Appears",
@@ -797,6 +795,27 @@ const std::string th15_musicNames[18] = {
 };
 
 // Touhou 16
+const std::string th16_musicNames[18] = {
+	"unused",
+	"The Sky Where Cherry Blossoms Flutter Down",
+	"A Star of Hope Rises in the Blue Sky",
+	"A Midsummer Fairy's Dream",
+	"The Colorless Wind on Youkai Mountain",
+	"Deep-Mountain Encounter",
+	"Swim in a Cherry Blossom-Colored Sea",
+	"A Pair of Divine Beasts",
+	"Illusionary White Traveler",
+	"The Magic Straw-Hat Jizo",
+	"Does the Forbidden Door Lead to This World, or the World Beyond?",
+	"Crazy Backup Dancers",
+	"The Concealed Four Seasons",
+	"Into Backdoor",
+	"Unnatural Nature",
+	"White Traveler",
+	"No More Going Through Doors",
+	"Secret God Matara ~ Hidden Star in All Seasons.",
+};
+
 const std::string th16_spellCardName[119] = {
 	// stage 1 (8 cards)
 	"Butterfly Sign \"Minute Scales\"",
@@ -926,29 +945,29 @@ const std::string th16_spellCardName[119] = {
 	"\"Anarchy Bullet Hell\""
 };
 
-// Touhou 16 Music
-const std::string th16_musicNames[18] = {
+// Touhou 17
+const std::string th17_musicNames[19] = {
 	"unused",
-	"The Sky Where Cherry Blossoms Flutter Down",
-	"A Star of Hope Rises in the Blue Sky",
-	"A Midsummer Fairy's Dream",
-	"The Colorless Wind on Youkai Mountain",
-	"Deep-Mountain Encounter",
-	"Swim in a Cherry Blossom-Colored Sea",
-	"A Pair of Divine Beasts",
-	"Illusionary White Traveler",
-	"The Magic Straw-Hat Jizo",
-	"Does the Forbidden Door Lead to This World, or the World Beyond?",
-	"Crazy Backup Dancers",
-	"The Concealed Four Seasons",
-	"Into Backdoor",
-	"Unnatural Nature",
-	"White Traveler",
-	"No More Going Through Doors",
-	"Secret God Matara ~ Hidden Star in All Seasons.",
+	"Silent Beast Spirits",
+	"unused",
+	"The Lamentations Known Only to Jizo",
+	"Jelly Stone",
+	"Lost River",
+	"The Stone Baby and the Submerged Bovine",
+	"Everlasting Red Spider Lily",
+	"Seraphic Chicken",
+	"Unlocated Hell",
+	"Tortoise Dragon ~ Fortune and Misfortune",
+	"Beast Metropolis",
+	"Joutoujin of Ceramics",
+	"Entrust the World to Idols ~ Idolatrize World",
+	"Electric Heritage",
+	"The Animals' Rest",
+	"Return from the Underground",
+	"The Shining Law of the Strong Eating the Weak",
+	"Prince Shoutoku's Pegasus ~ Dark Pegasus",
 };
 
-// Touhou 17
 const std::string th17_spellCardName[101] = {
 	// stage 1 (1-8, 8 cards)
 	"Stone Sign \"Stone Woods\"",
@@ -1058,27 +1077,4 @@ const std::string th17_spellCardName[101] = {
 	"\"Follow Me, Unafraid\"",
 	"\"Oni-Shaped Hoi Polloi\"",
 	"\"Deeds of Devilish Beasts\"",
-};
-
-// Touhou 17 Music
-const std::string th17_musicNames[19] = {
-	"unused",
-	"Silent Beast Spirits",
-	"unused",
-	"The Lamentations Known Only to Jizo",
-	"Jelly Stone",
-	"Lost River",
-	"The Stone Baby and the Submerged Bovine",
-	"Everlasting Red Spider Lily",
-	"Seraphic Chicken",
-	"Unlocated Hell",
-	"Tortoise Dragon ~ Fortune and Misfortune",
-	"Beast Metropolis",
-	"Joutoujin of Ceramics",
-	"Entrust the World to Idols ~ Idolatrize World",
-	"Electric Heritage",
-	"The Animals' Rest",
-	"Return from the Underground",
-	"The Shining Law of the Strong Eating the Weak",
-	"Prince Shoutoku's Pegasus ~ Dark Pegasus",
 };
